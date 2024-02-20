@@ -1,0 +1,122 @@
+#root {
+  max-width: 100%;
+  background-color: #071426;
+  text-align: center;
+  color: #faebd7;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #faebd7;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: hsl(45, 60%, 57%);
+}
+
+.block {
+  padding: 20px;
+}
+
+.container .Navbar {
+  background-color: hsl(45, 60%, 57%);
+}
+
+.navbar-parent {
+  background-color: hsl(45, 60%, 57%);
+}
+
+.Navbar {
+  background-color: hsl(45, 60%, 57%);
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  background-color: hsl(45, 60%, 57%);
+}
+
+.Navbar a:hover {
+  color: #faebd7;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.star {
+  max-width: 45px;
+  max-height: 45px;
+  color: #071426;
+}
+
+.bagel-man {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.deadpool {
+  max-width: 700px;
+  max-height: 300px;
+}
+
+/* .d-block w-100 {
+  max-width: 700px;
+  max-height: 300px;
+} */
+
+.block-text {
+  font-size: xx-large;
+  text-align: center;
+  padding: 150px 0 0 0;
+}
+
+.block-text-bagel {
+  font-size: xx-large;
+  text-align: center;
+  padding: 110px 0 0 0;
+}
+
+.bagel-text {
+  font-size: smaller;
+}
+
+#photo-left-container {
+  padding: 20px;
+}
+
+#form-right-container {
+  padding: 20px;
+}
+
+#formCard {
+  background-color: #1bb5f2;
+}
+
+.inline-label {
+display: inline-flex;
+width: 100px;
+margin-right: 10px;
+}
+
+#dateOfBirth {
+  display: inline-block;
+  width: calc(100% - 302px);
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+}
